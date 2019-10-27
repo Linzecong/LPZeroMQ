@@ -19,7 +19,7 @@ import PackageDescription
 
 let package = Package(
 	dependencies: [
-		.Package(url: "https://github.com/Linzecong/LPZeroMQ.git", majorVersion: 1)
+		.Package(url: "https://github.com/Linzecong/LPZeroMQ.git", .branch("master"))
 	]
 )
 
